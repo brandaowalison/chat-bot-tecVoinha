@@ -89,7 +89,7 @@ def handle_message(message):
         return
 
     redis.lpush(f"historico:{chat_id}", user_question)
-    bot.send_chat_action(chat_id, 'Processando')
+    bot.send_chat_action(chat_id, 'typing')
 
     try:
         completion = client.chat.completions.create(
