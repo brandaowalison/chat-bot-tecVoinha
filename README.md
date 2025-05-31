@@ -12,7 +12,6 @@ Atividade proposta pelo professor de Assistente Virtual e Chatbot. Este reposit�
 1. Inicie o bot no Telegram com `/start` ou `/iniciar`.
 2. Faça o cadastro respondendo às perguntas (nome, idade, sexo, email).
 3. Envie suas dúvidas sobre tecnologia!
-4. Use `/historico` para ver suas últimas perguntas.
 
 ## Requisitos
 - Python 3.8+
